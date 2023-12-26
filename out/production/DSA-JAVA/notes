@@ -1,0 +1,63 @@
+Data structure: is a way to store data efficiently.
+Algorithms: set of instructions
+ADT(Abstract Data Type):
+
+Queue: first in last out
+Stack: last in first out
+
+searching an element in a sorted array
+>linear search
+>binary search
+
+pseudocode for linear search
+----------------------------
+pseudocode LinearSearch(A: is list of items,target: item to search for)
+  n= length(A)
+  for i from 0 to n-1
+    if A[i] equals target then
+      return i //index where the target is found
+    end if
+  end for
+  return -1 // if the element is not found
+end pseudocode
+
+time complexity
+for searching an element: O(n)
+for reading an element: O(1)
+
+pseudocode for binary search
+----------------------------
+
+procedure binarySearch(A: is list of items,target: item to search for)
+  left = 0;
+  right = n-1;
+
+  while left <= right
+     mid = (left + right) / 2
+      if A[mid] = target then
+        return mid // index where tha target element is found
+        else if A[mid] < target
+          left = mid + 1; // continue searching in the right half
+        else
+        right = mid -1; // continue searching in the left half
+      end if
+  end while
+
+  return -1 // if the target element is not found in the list
+end procedure
+time complexity
+searching for an element: O(log n)
+
+Time complexity: this is the measure of run time of an algorithm increases with the increase in the number of inputs
+O(1):Constant time
+O(log n):Logarithmic time
+O(n): Linear time
+O(n log n):Linearithmic time(
+O(n^2):Quadratic time
+O(2^n):Exponential time
+O(n!):Factorial time
+
+
+--------------Quick sort and Merge sort uses the concept of divide and conquer-----------
+
+
