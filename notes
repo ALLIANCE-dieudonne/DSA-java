@@ -61,3 +61,11 @@ O(n!):Factorial time
 --------------Quick sort and Merge sort uses the concept of divide and conquer-----------
 
 
+Linked lists
+------------
+
+each element in a linked list is a node
+it has a time complexity of O(n)
+it is expandable
+it is slow compared to array
+you can't randomly access a element: you need to pass from the first element to the element you want to access
