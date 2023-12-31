@@ -7,7 +7,8 @@ public class Main {
     list.insert(10);
     list.insert(5);
     list.insertAtStart(20);
-    list.insertAt(0,90);
+    list.insertAt(0, 90);
+    list.delete(0);
     list.show();
   }
 }
