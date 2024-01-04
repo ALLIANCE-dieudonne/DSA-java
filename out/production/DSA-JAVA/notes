@@ -69,3 +69,15 @@ it has a time complexity of O(n)
 it is expandable
 it is slow compared to array
 you can't randomly access a element: you need to pass from the first element to the element you want to access
+
+stack
+-----
+is an ADT: meaning it only focuses on the features it provide than the implementation
+-add(push)
+-delete(pop)
+-find(peek)
+it uses LIFO  (last in last out);
+it has only one entry point
+
+if you try to add an element to a stack implemented with a fixed value array, the
+error you get is overflow error and when you try to pop an element of an empty stack the error you get is underflow error
