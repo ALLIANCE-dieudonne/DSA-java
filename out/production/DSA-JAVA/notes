@@ -81,3 +81,12 @@ it has only one entry point
 
 if you try to add an element to a stack implemented with a fixed value array, the
 error you get is overflow error and when you try to pop an element of an empty stack the error you get is underflow error
+
+
+queue
+-----
+it is same as stack but it uses FIFO(first in first out)
+enqueue(inserting value into a queue)
+dequeue(removing values from a queue)
+the first index is called front and the last index is called rear
+
