@@ -107,3 +107,9 @@ height: number of the children of a node
 
 >>Binary search tree: a type of binary tree where the large elements
 to the parent node got to right and the small elements go to left as a rule.
+
+tree traversal
+-------------
+-in order traversal: left-root-right
+-pre order traversal:root-left-right
+-post order traversal: left-right-root

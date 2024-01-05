@@ -90,3 +90,26 @@ enqueue(inserting value into a queue)
 dequeue(removing values from a queue)
 the first index is called front and the last index is called rear
 
+tree
+----
+it arranges data in tree like structure
+the first node is called the root node
+and the last nodes are called the leaf nodes
+and the link btn nodes is called edge
+
+depth: number of parents of a node
+height: number of the children of a node
+
+>>>Binary tree: a special type of where each node is linked to 2 nodes
+-strict binary tree: every node must have 2 sub nodes
+-full binary tree:  all the leaf nodes must be on the same level
+-complete binary tree: binary tree where the sub nodes are in levels of l, l-1
+
+>>Binary search tree: a type of binary tree where the large elements
+to the parent node got to right and the small elements go to left as a rule.
+
+tree traversal
+-------------
+-in order traversal: left-root-right
+-pre order traversal:root-left-right
+-post order traversal: left-right-root
